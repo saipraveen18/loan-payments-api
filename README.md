@@ -10,21 +10,21 @@ _LoansController#index_ - This end point will expose information about all the l
 
 **Sample Response**
 ```json
-{ "loan_id": [{ "payment_id": "payment.id", "balance_left": "balance_left", "paid_amount": "payment.amount", "payment_made": "payment.created_at" }] }
+{ "loan_id": [{ "payment_id": 1, "balance_left": "balance_left", "paid_amount": "payment.amount", "payment_made": "payment_created_time_stamp" }] }
 ```
 
 _LoansController#loan_payments_ - This end point will expose information about payments of a particular loan
 
 **Sample Response**
 ```json
-{"loan_id": [{"payment_id": "payment.id", "balance_left": "20.0", "paid_amount": "80.0", "payment_made": "created_time_stamp"}] }
+{"loan_id": [{"payment_id": 1, "balance_left": "20.0", "paid_amount": "80.0", "payment_made": "payment_created_time_stamp"}] }
 ```
 
 _LoansController#loan_payment_info_ - This end point will expose information about a particular payment
 
 **Sample Response**
 ```json
-{"loan_id": 1,"payment_amount": "80.0","payment_made": "created_time_stamp"}
+{"loan_id": 1,"payment_amount": "80.0","payment_made": "payment_created_time_stamp"}
 ```
 
 _LoansController#show_ - This end point will expose information about a loan and the outstanding balance
