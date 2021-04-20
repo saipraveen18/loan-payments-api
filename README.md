@@ -4,7 +4,7 @@ Add in the ability to create payments for a given loan using a JSON API call. Yo
 
 A payment should not be able to be created that exceeds the outstanding balance of a loan. You should return validation errors if a payment can not be created. Expose endpoints for seeing all payments for a given loan as well as seeing an individual payment.
 
-#API End Points
+# API End Points
 
 _LoansController#index_ - This end point will expose information about all the loans and their respective payments
 
