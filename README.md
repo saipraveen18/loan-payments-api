@@ -34,7 +34,7 @@ _LoansController#show_ - This end point will expose information about a loan and
 {"loan_funded": "100.0","outstanding_balance":"20.0"}
 ```
 
-#Environment Setup
+**Environment Setup**
 ```
 rbenv install 2.6.6
 gem install bundler -v 2.2.16
@@ -42,7 +42,7 @@ gem install rails -v 5.2.4.4
 bundle exec rake db:migrate
 ```
 
-#Start Rails Server
+**Start Rails Server**
 ```
 rails s
 ```
