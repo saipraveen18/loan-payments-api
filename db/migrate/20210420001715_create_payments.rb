@@ -5,7 +5,7 @@ class CreatePayments < ActiveRecord::Migration[5.2]
       t.integer :loan_id
       t.timestamps null: false
 
-      add_foreign_key :payments, :loans, on_delete: :cascade, validate: false
+      add_foreign_key :payments, :loans, on_delete: :cascade
     end
   end
 end
