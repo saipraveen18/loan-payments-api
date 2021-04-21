@@ -46,3 +46,8 @@ bundle exec rake db:migrate
 ```
 rails s
 ```
+
+**Database**
+```
+SQlite
+```
